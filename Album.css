@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+     
+}
+    
+nav{
+    width: 100%;
+    background:url(https://cdn1.umg3.net/684-cdn/cdn/assets/images/new_back.png) ;
+    overflow:auto;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style:none;
+}
+li{
+    float: left;
+
+}
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font:"dominatormedium";
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+nav a:hover {
+    background: white;
+    transition: 0.5s;
+    text-transform: uppercase;
+
+}
+:root {
+    --primary : linear-gradie(to bottom right, orange, yellow );
+    --secondary : gold;
+    --text : rgb(226, 247, 0);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body2 {
+    min-height: 100vh;
+    background-image:url(https://upload.wikimedia.org/wikipedia/en/0/09/Bastille_-_Bad_Blood_%28Album%29.png);
+    font-family: sans-serif;
+    color: var(--text);
+    font-size: larger;
+
+    display: flex;
+    align-items: center;
+
+
+}
+.gallery{
+    margin: 10px 500px;
+}
+
+.gallery img{
+    width: 500px;
+    padding: 20px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+     
+}
+    
+nav{
+    width: 100%;
+    background:url(https://cdn1.umg3.net/684-cdn/cdn/assets/images/new_back.png) ;
+    overflow:auto;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style:none;
+}
+li{
+    float: left;
+
+}
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font:"dominatormedium";
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+nav a:hover {
+    background: white;
+    transition: 0.5s;
+    text-transform: uppercase;
+
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body2 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://www.theedgesusu.co.uk/wp-content/uploads/2012/12/Other-People-S-Heartache-PT-2-Mixtape-cover-e1472139564443.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    margin:  56px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5),
+    0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+    width: 100%;
+    transform: scale(1.2);
+}
+
+p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
